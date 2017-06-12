@@ -1,0 +1,4 @@
+cd fortress-uma
+mvn clean install
+mvn exec:exec -Pdemo
+mvn exec:exec -Pui

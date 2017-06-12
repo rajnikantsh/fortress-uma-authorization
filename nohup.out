@@ -1,0 +1,429 @@
+[INFO] Scanning for projects...
+Downloading: http://ox.gluu.org/maven/org/xdi/oxd/3.1.0-SNAPSHOT/maven-metadata.xml
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.gluu:fortress_demo:jar:3.1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.springframework.boot:spring-boot-maven-plugin is missing. @ org.gluu:fortress_demo:[unknown-version], /home/spineor/fortress-uma/fortress_demo/pom.xml, line 68, column 12
+[WARNING] 'repositories.repository.id' must not be 'local', this identifier is reserved for the local repository, using it for other repositories will corrupt your repository metadata. @ org.xdi:oxd:3.1.0-SNAPSHOT, /home/spineor/.m2/repository/org/xdi/oxd/3.1.0-SNAPSHOT/oxd-3.1.0-SNAPSHOT.pom, line 65, column 17
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.gluu:fortress-ui:jar:3.1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.springframework.boot:spring-boot-maven-plugin is missing. @ org.gluu:fortress-ui:[unknown-version], /home/spineor/fortress-uma/fortress-ui/pom.xml, line 81, column 12
+[WARNING] 'repositories.repository.id' must not be 'local', this identifier is reserved for the local repository, using it for other repositories will corrupt your repository metadata. @ org.xdi:oxd:3.1.0-SNAPSHOT, /home/spineor/.m2/repository/org/xdi/oxd/3.1.0-SNAPSHOT/oxd-3.1.0-SNAPSHOT.pom, line 65, column 17
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.gluu:fortress-uma:pom:1.0-SNAPSHOT
+[WARNING] 'repositories.repository.id' must not be 'local', this identifier is reserved for the local repository, using it for other repositories will corrupt your repository metadata. @ org.xdi:oxd:3.1.0-SNAPSHOT, /home/spineor/.m2/repository/org/xdi/oxd/3.1.0-SNAPSHOT/oxd-3.1.0-SNAPSHOT.pom, line 65, column 17
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] fortress_demo
+[INFO] fortress-ui
+[INFO] fortress-uma
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building fortress_demo 3.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: http://ox.gluu.org/maven/org/xdi/oxd-client/3.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://ox.gluu.org/maven/org/xdi/oxd-common/3.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://ox.gluu.org/maven/org/xdi/uma-rs-resteasy/3.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://ox.gluu.org/maven/org/xdi/uma-rs/3.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://ox.gluu.org/maven/org/xdi/uma-rs-core/3.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://ox.gluu.org/maven/org/xdi/oxauth-client/3.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://ox.gluu.org/maven/org/xdi/oxauth/3.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://ox.gluu.org/maven/org/xdi/oxauth-model/3.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://ox.gluu.org/maven/org/gluu/oxeleven-client/3.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://ox.gluu.org/maven/org/gluu/oxEleven/3.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://ox.gluu.org/maven/org/gluu/oxeleven-model/3.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://ox.gluu.org/maven/org/xdi/oxcore-ldap-annotations/3.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://ox.gluu.org/maven/org/xdi/oxcore/3.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://ox.gluu.org/maven/org/xdi/oxcore-util/3.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://ox.gluu.org/maven/org/xdi/oxcore-model/3.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://ox.gluu.org/maven/org/xdi/oxUtil/3.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://ox.gluu.org/maven/org/xdi/oxCore/3.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://ox.gluu.org/maven/org/xdi/oxLdap-annotations/3.1.0-SNAPSHOT/maven-metadata.xml
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ fortress_demo ---
+[INFO] Deleting /home/spineor/fortress-uma/fortress_demo/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4:resources (default-resources) @ fortress_demo ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ fortress_demo ---
+[INFO] Compiling 3 source files to /home/spineor/fortress-uma/fortress_demo/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4:testResources (default-testResources) @ fortress_demo ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/spineor/fortress-uma/fortress_demo/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ fortress_demo ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ fortress_demo ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ fortress_demo ---
+[INFO] Building jar: /home/spineor/fortress-uma/fortress_demo/target/fortress_demo-3.1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:test-jar (default) @ fortress_demo ---
+[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: /home/spineor/fortress-uma/fortress_demo/target/fortress_demo-3.1.0-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ fortress_demo ---
+[INFO] Installing /home/spineor/fortress-uma/fortress_demo/target/fortress_demo-3.1.0-SNAPSHOT.jar to /home/spineor/.m2/repository/org/gluu/fortress_demo/3.1.0-SNAPSHOT/fortress_demo-3.1.0-SNAPSHOT.jar
+[INFO] Installing /home/spineor/fortress-uma/fortress_demo/pom.xml to /home/spineor/.m2/repository/org/gluu/fortress_demo/3.1.0-SNAPSHOT/fortress_demo-3.1.0-SNAPSHOT.pom
+[INFO] Installing /home/spineor/fortress-uma/fortress_demo/target/fortress_demo-3.1.0-SNAPSHOT-tests.jar to /home/spineor/.m2/repository/org/gluu/fortress_demo/3.1.0-SNAPSHOT/fortress_demo-3.1.0-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building fortress-ui 3.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ fortress-ui ---
+[INFO] Deleting /home/spineor/fortress-uma/fortress-ui/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4:resources (default-resources) @ fortress-ui ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 16 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ fortress-ui ---
+[INFO] Compiling 2 source files to /home/spineor/fortress-uma/fortress-ui/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4:testResources (default-testResources) @ fortress-ui ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/spineor/fortress-uma/fortress-ui/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ fortress-ui ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ fortress-ui ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ fortress-ui ---
+[INFO] Building jar: /home/spineor/fortress-uma/fortress-ui/target/fortress-ui-3.1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:test-jar (default) @ fortress-ui ---
+[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: /home/spineor/fortress-uma/fortress-ui/target/fortress-ui-3.1.0-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ fortress-ui ---
+[INFO] Installing /home/spineor/fortress-uma/fortress-ui/target/fortress-ui-3.1.0-SNAPSHOT.jar to /home/spineor/.m2/repository/org/gluu/fortress-ui/3.1.0-SNAPSHOT/fortress-ui-3.1.0-SNAPSHOT.jar
+[INFO] Installing /home/spineor/fortress-uma/fortress-ui/pom.xml to /home/spineor/.m2/repository/org/gluu/fortress-ui/3.1.0-SNAPSHOT/fortress-ui-3.1.0-SNAPSHOT.pom
+[INFO] Installing /home/spineor/fortress-uma/fortress-ui/target/fortress-ui-3.1.0-SNAPSHOT-tests.jar to /home/spineor/.m2/repository/org/gluu/fortress-ui/3.1.0-SNAPSHOT/fortress-ui-3.1.0-SNAPSHOT-tests.jar
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building fortress-uma 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ fortress-uma ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ fortress-uma ---
+[INFO] Installing /home/spineor/fortress-uma/pom.xml to /home/spineor/.m2/repository/org/gluu/fortress-uma/1.0-SNAPSHOT/fortress-uma-1.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] fortress_demo ...................................... SUCCESS [ 10.135 s]
+[INFO] fortress-ui ........................................ SUCCESS [  0.566 s]
+[INFO] fortress-uma ....................................... SUCCESS [  0.003 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 11.688 s
+[INFO] Finished at: 2017-06-12T15:40:19+05:30
+[INFO] Final Memory: 52M/302M
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+Downloading: http://ox.gluu.org/maven/org/xdi/oxd/3.1.0-SNAPSHOT/maven-metadata.xml
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.gluu:fortress_demo:jar:3.1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.springframework.boot:spring-boot-maven-plugin is missing. @ org.gluu:fortress_demo:[unknown-version], /home/spineor/fortress-uma/fortress_demo/pom.xml, line 68, column 12
+[WARNING] 'repositories.repository.id' must not be 'local', this identifier is reserved for the local repository, using it for other repositories will corrupt your repository metadata. @ org.xdi:oxd:3.1.0-SNAPSHOT, /home/spineor/.m2/repository/org/xdi/oxd/3.1.0-SNAPSHOT/oxd-3.1.0-SNAPSHOT.pom, line 65, column 17
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.gluu:fortress-ui:jar:3.1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.springframework.boot:spring-boot-maven-plugin is missing. @ org.gluu:fortress-ui:[unknown-version], /home/spineor/fortress-uma/fortress-ui/pom.xml, line 81, column 12
+[WARNING] 'repositories.repository.id' must not be 'local', this identifier is reserved for the local repository, using it for other repositories will corrupt your repository metadata. @ org.xdi:oxd:3.1.0-SNAPSHOT, /home/spineor/.m2/repository/org/xdi/oxd/3.1.0-SNAPSHOT/oxd-3.1.0-SNAPSHOT.pom, line 65, column 17
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.gluu:fortress-uma:pom:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:exec-maven-plugin is missing. @ line 57, column 21
+[WARNING] 'repositories.repository.id' must not be 'local', this identifier is reserved for the local repository, using it for other repositories will corrupt your repository metadata. @ org.xdi:oxd:3.1.0-SNAPSHOT, /home/spineor/.m2/repository/org/xdi/oxd/3.1.0-SNAPSHOT/oxd-3.1.0-SNAPSHOT.pom, line 65, column 17
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] fortress_demo
+[INFO] fortress-ui
+[INFO] fortress-uma
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building fortress_demo 3.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> exec-maven-plugin:1.2.1:java (default-cli) > validate @ fortress_demo >>>
+[INFO] 
+[INFO] <<< exec-maven-plugin:1.2.1:java (default-cli) < validate @ fortress_demo <<<
+[INFO] 
+Downloading: http://ox.gluu.org/maven/org/xdi/oxd-client/3.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://ox.gluu.org/maven/org/xdi/oxd-common/3.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://ox.gluu.org/maven/org/xdi/uma-rs-resteasy/3.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://ox.gluu.org/maven/org/xdi/uma-rs/3.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://ox.gluu.org/maven/org/xdi/uma-rs-core/3.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://ox.gluu.org/maven/org/xdi/oxauth-client/3.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://ox.gluu.org/maven/org/xdi/oxauth/3.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://ox.gluu.org/maven/org/xdi/oxauth-model/3.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://ox.gluu.org/maven/org/gluu/oxeleven-client/3.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://ox.gluu.org/maven/org/gluu/oxEleven/3.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://ox.gluu.org/maven/org/gluu/oxeleven-model/3.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://ox.gluu.org/maven/org/xdi/oxcore-ldap-annotations/3.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://ox.gluu.org/maven/org/xdi/oxcore/3.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://ox.gluu.org/maven/org/xdi/oxcore-util/3.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://ox.gluu.org/maven/org/xdi/oxcore-model/3.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://ox.gluu.org/maven/org/xdi/oxUtil/3.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://ox.gluu.org/maven/org/xdi/oxCore/3.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://ox.gluu.org/maven/org/xdi/oxLdap-annotations/3.1.0-SNAPSHOT/maven-metadata.xml
+[INFO] 
+[INFO] --- exec-maven-plugin:1.2.1:java (default-cli) @ fortress_demo ---
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/spineor/.m2/repository/ch/qos/logback/logback-classic/1.1.11/logback-classic-1.1.11.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/spineor/.m2/repository/org/slf4j/slf4j-log4j12/1.7.11/slf4j-log4j12-1.7.11.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.5.3.RELEASE)
+
+2017-06-12 15:41:19.868  INFO 16112 --- [lication.main()] o.gluu.fortress.FortressDemoApplication  : Starting FortressDemoApplication on spineor-To-be-filled-by-O-E-M with PID 16112 (/home/spineor/fortress-uma/fortress_demo/target/classes started by spineor in /home/spineor/fortress-uma)
+2017-06-12 15:41:19.870  INFO 16112 --- [lication.main()] o.gluu.fortress.FortressDemoApplication  : No active profile set, falling back to default profiles: default
+2017-06-12 15:41:19.910  INFO 16112 --- [lication.main()] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@d0b2837: startup date [Mon Jun 12 15:41:19 IST 2017]; root of context hierarchy
+2017-06-12 15:41:20.539  INFO 16112 --- [lication.main()] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-06-12 15:41:20.813  INFO 16112 --- [lication.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 9099 (https)
+2017-06-12 15:41:20.823  INFO 16112 --- [lication.main()] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2017-06-12 15:41:20.824  INFO 16112 --- [lication.main()] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.14
+2017-06-12 15:41:20.891  INFO 16112 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-06-12 15:41:20.891  INFO 16112 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 981 ms
+2017-06-12 15:41:20.978  INFO 16112 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-06-12 15:41:20.980  INFO 16112 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-06-12 15:41:20.981  INFO 16112 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-06-12 15:41:20.981  INFO 16112 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-06-12 15:41:20.981  INFO 16112 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-06-12 15:41:21.182  INFO 16112 --- [lication.main()] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@d0b2837: startup date [Mon Jun 12 15:41:19 IST 2017]; root of context hierarchy
+2017-06-12 15:41:21.240  INFO 16112 --- [lication.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/oxdId],methods=[GET]}" onto private org.springframework.http.ResponseEntity<?> org.gluu.fortress.controller.OxdProvider.oxdId(javax.servlet.http.HttpServletRequest)
+2017-06-12 15:41:21.242  INFO 16112 --- [lication.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/checkAccess],methods=[GET]}" onto private org.springframework.http.ResponseEntity<?> org.gluu.fortress.controller.OxdProvider.checkResourceAccess(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2017-06-12 15:41:21.243  INFO 16112 --- [lication.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/resource],methods=[GET]}" onto private org.springframework.http.ResponseEntity<?> org.gluu.fortress.controller.OxdProvider.resource(javax.servlet.http.HttpServletRequest)
+2017-06-12 15:41:21.245  INFO 16112 --- [lication.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-06-12 15:41:21.245  INFO 16112 --- [lication.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-06-12 15:41:21.271  INFO 16112 --- [lication.main()] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-12 15:41:21.272  INFO 16112 --- [lication.main()] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-12 15:41:21.307  INFO 16112 --- [lication.main()] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-06-12 15:41:21.417  INFO 16112 --- [lication.main()] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-06-12 15:41:21.530  INFO 16112 --- [lication.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 9099 (https)
+2017-06-12 15:41:21.534  INFO 16112 --- [lication.main()] o.gluu.fortress.FortressDemoApplication  : Started FortressDemoApplication in 1.849 seconds (JVM running for 12.994)
+2017-06-12 15:41:50.274  INFO 16112 --- [nio-9099-exec-7] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-06-12 15:41:50.274  INFO 16112 --- [nio-9099-exec-7] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-06-12 15:41:50.284  INFO 16112 --- [nio-9099-exec-7] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 10 ms
+RegisterSiteParams{acrValues=[auth_ldap_server], opHost='https://ubuntuspineor', opDiscoveryPath='null', authorizationRedirectUri='https://rks.local:9999/loginSuccess', redirectUris=[https://rks.local:9999/logout], responseTypes=[code], clientId='null', clientSecret='null', clientName='null', sectorIdentifierUri='null', scope=[openid, uma_protection, uma_authorization], uiLocales=null, claimsLocales=null, grantType=[authorization_code], contacts=null}
+2017-06-12 15:41:50.479 ERROR 16112 --- [nio-9099-exec-7] org.xdi.oxd.common.CoreUtils             : (was java.lang.UnsupportedOperationException) (through reference chain: org.xdi.oxd.common.Command["params"]->org.xdi.oxd.common.params.RegisterSiteParams["oxdId"])
+
+org.codehaus.jackson.map.JsonMappingException: (was java.lang.UnsupportedOperationException) (through reference chain: org.xdi.oxd.common.Command["params"]->org.xdi.oxd.common.params.RegisterSiteParams["oxdId"])
+	at org.codehaus.jackson.map.JsonMappingException.wrapWithPath(JsonMappingException.java:218) ~[jackson-mapper-asl-1.9.9.jar:1.9.9]
+	at org.codehaus.jackson.map.JsonMappingException.wrapWithPath(JsonMappingException.java:183) ~[jackson-mapper-asl-1.9.9.jar:1.9.9]
+	at org.codehaus.jackson.map.ser.std.SerializerBase.wrapAndThrow(SerializerBase.java:140) ~[jackson-mapper-asl-1.9.9.jar:1.9.9]
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:158) ~[jackson-mapper-asl-1.9.9.jar:1.9.9]
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112) ~[jackson-mapper-asl-1.9.9.jar:1.9.9]
+	at org.codehaus.jackson.map.ser.StdSerializerProvider._serializeValue(StdSerializerProvider.java:610) ~[jackson-mapper-asl-1.9.9.jar:1.9.9]
+	at org.codehaus.jackson.map.ser.StdSerializerProvider.serializeValue(StdSerializerProvider.java:256) ~[jackson-mapper-asl-1.9.9.jar:1.9.9]
+	at org.codehaus.jackson.map.ObjectMapper.writeValue(ObjectMapper.java:1613) ~[jackson-mapper-asl-1.9.9.jar:1.9.9]
+	at org.codehaus.jackson.impl.JsonGeneratorBase.writeObject(JsonGeneratorBase.java:314) ~[jackson-core-asl-1.9.9.jar:1.9.9]
+	at org.codehaus.jackson.node.POJONode.serialize(POJONode.java:101) ~[jackson-mapper-asl-1.9.9.jar:1.9.9]
+	at org.codehaus.jackson.map.ser.std.SerializableWithTypeSerializer.serialize(SerializableWithTypeSerializer.java:38) ~[jackson-mapper-asl-1.9.9.jar:1.9.9]
+	at org.codehaus.jackson.map.ser.std.SerializableWithTypeSerializer.serialize(SerializableWithTypeSerializer.java:25) ~[jackson-mapper-asl-1.9.9.jar:1.9.9]
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:446) ~[jackson-mapper-asl-1.9.9.jar:1.9.9]
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150) ~[jackson-mapper-asl-1.9.9.jar:1.9.9]
+	at org.codehaus.jackson.map.ser.BeanSerializer.serialize(BeanSerializer.java:112) ~[jackson-mapper-asl-1.9.9.jar:1.9.9]
+	at org.codehaus.jackson.map.ser.StdSerializerProvider._serializeValue(StdSerializerProvider.java:610) ~[jackson-mapper-asl-1.9.9.jar:1.9.9]
+	at org.codehaus.jackson.map.ser.StdSerializerProvider.serializeValue(StdSerializerProvider.java:256) ~[jackson-mapper-asl-1.9.9.jar:1.9.9]
+	at org.codehaus.jackson.map.ObjectMapper._configAndWriteValue(ObjectMapper.java:2575) ~[jackson-mapper-asl-1.9.9.jar:1.9.9]
+	at org.codehaus.jackson.map.ObjectMapper.writeValueAsString(ObjectMapper.java:2097) ~[jackson-mapper-asl-1.9.9.jar:1.9.9]
+	at org.xdi.oxd.common.CoreUtils.asJson(CoreUtils.java:122) ~[oxd-common-3.1.0-SNAPSHOT.jar:na]
+	at org.xdi.oxd.client.CommandClient.send(CommandClient.java:59) ~[oxd-client-3.1.0-SNAPSHOT.jar:na]
+	at org.gluu.fortress.controller.OxdProvider.oxdId(OxdProvider.java:75) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_131]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_131]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) [spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133) [spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97) [spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827) [spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738) [spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) [spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) [spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) [spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) [spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861) [spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) [spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-embed-websocket-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105) [spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81) [spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) [spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+Caused by: java.lang.UnsupportedOperationException: null
+	at org.xdi.oxd.common.params.RegisterSiteParams.getOxdId(RegisterSiteParams.java:268) ~[oxd-common-3.1.0-SNAPSHOT.jar:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_131]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_131]
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.get(BeanPropertyWriter.java:483) ~[jackson-mapper-asl-1.9.9.jar:1.9.9]
+	at org.codehaus.jackson.map.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:418) ~[jackson-mapper-asl-1.9.9.jar:1.9.9]
+	at org.codehaus.jackson.map.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:150) ~[jackson-mapper-asl-1.9.9.jar:1.9.9]
+	... 72 common frames omitted
+
+2017-06-12 15:41:50.489 ERROR 16112 --- [nio-9099-exec-7] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+
+java.lang.NullPointerException: null
+	at org.gluu.fortress.controller.OxdProvider.oxdId(OxdProvider.java:75) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_131]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_131]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) ~[spring-webmvc-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) ~[tomcat-embed-websocket-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.8.RELEASE.jar:4.3.8.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) ~[tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_131]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_131]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.14.jar:8.5.14]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+
+2017-06-12 15:42:06.058  INFO 16112 --- [       Thread-4] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@d0b2837: startup date [Mon Jun 12 15:41:19 IST 2017]; root of context hierarchy
+2017-06-12 15:42:06.061  INFO 16112 --- [       Thread-4] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building fortress-ui 3.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> exec-maven-plugin:1.2.1:java (default-cli) > validate @ fortress-ui >>>
+[INFO] Scanning for projects...
+Downloading: http://ox.gluu.org/maven/org/xdi/oxd/3.1.0-SNAPSHOT/maven-metadata.xml
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.gluu:fortress_demo:jar:3.1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.springframework.boot:spring-boot-maven-plugin is missing. @ org.gluu:fortress_demo:[unknown-version], /home/spineor/fortress-uma/fortress_demo/pom.xml, line 68, column 12
+[WARNING] 'repositories.repository.id' must not be 'local', this identifier is reserved for the local repository, using it for other repositories will corrupt your repository metadata. @ org.xdi:oxd:3.1.0-SNAPSHOT, /home/spineor/.m2/repository/org/xdi/oxd/3.1.0-SNAPSHOT/oxd-3.1.0-SNAPSHOT.pom, line 65, column 17
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.gluu:fortress-ui:jar:3.1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.springframework.boot:spring-boot-maven-plugin is missing. @ org.gluu:fortress-ui:[unknown-version], /home/spineor/fortress-uma/fortress-ui/pom.xml, line 81, column 12
+[WARNING] 'repositories.repository.id' must not be 'local', this identifier is reserved for the local repository, using it for other repositories will corrupt your repository metadata. @ org.xdi:oxd:3.1.0-SNAPSHOT, /home/spineor/.m2/repository/org/xdi/oxd/3.1.0-SNAPSHOT/oxd-3.1.0-SNAPSHOT.pom, line 65, column 17
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.gluu:fortress-uma:pom:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:exec-maven-plugin is missing. @ line 57, column 21
+[WARNING] 'repositories.repository.id' must not be 'local', this identifier is reserved for the local repository, using it for other repositories will corrupt your repository metadata. @ org.xdi:oxd:3.1.0-SNAPSHOT, /home/spineor/.m2/repository/org/xdi/oxd/3.1.0-SNAPSHOT/oxd-3.1.0-SNAPSHOT.pom, line 65, column 17
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] fortress_demo
+[INFO] fortress-ui
+[INFO] fortress-uma
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building fortress_demo 3.1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> exec-maven-plugin:1.2.1:java (run-ui) > validate @ fortress_demo >>>
+[INFO] 
+[INFO] <<< exec-maven-plugin:1.2.1:java (run-ui) < validate @ fortress_demo <<<
+[INFO] 
+Downloading: http://ox.gluu.org/maven/org/xdi/oxd-client/3.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://ox.gluu.org/maven/org/xdi/oxd-common/3.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://ox.gluu.org/maven/org/xdi/uma-rs-resteasy/3.1.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://ox.gluu.org/maven/org/xdi/uma-rs/3.1.0-SNAPSHOT/maven-metadata.xml
